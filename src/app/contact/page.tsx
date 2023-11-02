@@ -32,7 +32,7 @@ const Contact = async () => {
                     id="name"
                     name="name"
                     className="form-input"
-                    placeholder="John Doe"
+                    placeholder="Eternstack"
                     type="text"
                   />
                 </div>
@@ -44,7 +44,7 @@ const Contact = async () => {
                     id="email"
                     name="email"
                     className="form-input"
-                    placeholder="john.doe@email.com"
+                    placeholder="eternstack@email.com"
                     type="email"
                   />
                 </div>

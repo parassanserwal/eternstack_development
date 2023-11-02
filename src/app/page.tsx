@@ -25,8 +25,35 @@ const Home = () => {
     <>
       <SeoMeta />
       <section className="section pt-14">
-        <div className="container">
-          <div className="row justify-center">
+        <div className="container flex  w-screen justify-between">
+          <div className="para1 w-2/4">
+          <h1
+                className="mb-4 "
+                dangerouslySetInnerHTML={markdownify(banner.title)}
+              />
+              <h3
+                className="mb-4 "
+                dangerouslySetInnerHTML={markdownify(banner.additional_title)}
+              />
+              <p
+                className="mt-10 "
+                dangerouslySetInnerHTML={markdownify(banner.content ?? "")}
+              />
+              <div className="productbutton h-10 w-48 bg-slate-300 flex items-center justify-center rounded-l mt-10 hover:bg-slate-200"><a href="/products">Checkout Products</a></div>
+          </div>
+          <div className="para2">
+          <div className="">
+                <ImageFallback
+                  src={banner.image}
+                  className="mx-auto"
+                  width="400"
+                  height="500"
+                  alt="banner image"
+                  priority
+                />
+              </div>
+          </div>
+          {/* <div className="row justify-center">
             <div className="mb-16 text-center lg:col-10">
               <h1
                 className="mb-4"
@@ -55,7 +82,7 @@ const Home = () => {
                 />
               </div>
             )}
-          </div>
+          </div> */}
         </div>
       </section>
 
@@ -113,8 +140,8 @@ const Home = () => {
         </section>
       ))}
 
-      <Testimonials data={testimonial} />
-      <CallToAction data={callToAction} />
+      {/* <Testimonials data={testimonial} />
+      <CallToAction data={callToAction} /> */}
     </>
   );
 };

@@ -3,7 +3,8 @@ html {
 }
 
 body {
-  @apply bg-body font-primary font-normal leading-relaxed text-text dark:bg-darkmode-body dark:text-darkmode-text;
+  // background-color: #F4F7FF;
+  @apply  font-primary font-normal leading-relaxed text-text dark:bg-darkmode-body dark:text-darkmode-text;
 }
 
 h1,
