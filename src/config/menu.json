@@ -9,11 +9,11 @@
       "url": "/about"
     },
     {
-      "name": "Elements",
-      "url": "/elements"
+      "name": "Products",
+      "url": "/products"
     },
     {
-      "name": "Pages",
+      "name": "More",
       "url": "",
       "hasChildren": true,
       "children": [
@@ -25,10 +25,7 @@
           "name": "Blog",
           "url": "/blog"
         },
-        {
-          "name": "Authors",
-          "url": "/authors"
-        },
+        
         {
           "name": "Categories",
           "url": "/categories"
@@ -36,18 +33,15 @@
         {
           "name": "Search",
           "url": "/search"
-        },
-        {
-          "name": "404 Page",
-          "url": "/404"
         }
+        
       ]
     }
   ],
   "footer": [
     {
-      "name": "Elements",
-      "url": "/elements"
+      "name": "Products",
+      "url": "/products"
     },
     {
       "name": "Privacy Policy",

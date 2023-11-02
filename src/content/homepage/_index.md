@@ -1,9 +1,10 @@
 ---
 # Banner
 banner:
-  title: "We understand the difference between needs and wants of this generation"
-  content: "And that is why,you are going to love us 💞"
-  image: "/images/banner.png"
+  title: "Empower Your Development Journey with EternStack"
+  additional_title: " 'Unleash the Power of SaaS Platforms' "
+  content: "Elevate Your Productivity and Learning with EternStack's Innovative Solutions for Developers and Students "
+  image: "/images/homepage.png"
   button:
     enable: true
     label: "Get Started For Free"
@@ -11,41 +12,44 @@ banner:
 
 # Features
 features:
-  - title: "What's Included in Nextplate"
+  - title: "EternStack Highlights:"
     image: "/images/service-1.png"
     content: "Nextplate is a comprehensive starter template that includes everything you need to get started with your Next project. What's Included in Nextplate"
     bulletpoints:
-      - "10+ Pre-build pages"
-      - "95+ Google Pagespeed Score"
-      - "Build with Next and TailwindCSS for easy and customizable styling"
-      - "Fully responsive on all devices"
-      - "SEO-optimized for better search engine rankings"
-      - "**Open-source and free** for personal and commercial use"
+      - "Cutting-edge SaaS platforms for developers and students"
+      - "User-friendly and intuitive interfaces for ease of use"
+      - "Streamlined, affordable subscriptions"
+      - "Continuous updates and improvements for superior performance"
+      - "Active community for networking and knowledge sharing"
+      # - "**Open-source and free** for personal and commercial use"
     button:
       enable: false
       label: "Get Started Now"
       link: "#"
 
-  - title: "Discover the Key Features Of Next"
+  - title: "EternStack in a Nutshell:"
     image: "/images/service-2.png"
-    content: "Next is an all-in-one web framework for building fast, content-focused websites. It offers a range of exciting features for developers and website creators. Some of the key features are:"
+    content: "EternStack is your gateway to streamlined productivity and enhanced learning. With innovative SaaS platforms tailored for developers and students, we offer user-friendly solutions that simplify work and elevate your performance. Our affordable subscriptions and dedicated community support ensure that you stay at the forefront of your field. Join us to experience convenience and excellence."
     bulletpoints:
-      - "Zero JS, by default: No JavaScript runtime overhead to slow you down."
-      - "Customizable: Tailwind, MDX, and 100+ other integrations to choose from."
-      - "UI-agnostic: Supports React, Preact, Svelte, Vue, Solid, Lit and more."
+      - "Engaging community for networking and assistance."
+      - "Continuous enhancements and updates."
+      - "Intuitive and user-friendly interfaces"
     button:
       enable: true
       label: "Get Started Now"
       link: "https://github.com/zeon-studio/nextplate"
 
-  - title: "The Top Reasons to Choose Next for Your Next Project"
+  - title: "Why Make Us Your Preferred Choice?"
     image: "/images/service-3.png"
     content: "With Next, you can build modern and content-focused websites without sacrificing performance or ease of use."
     bulletpoints:
-      - "Instantly load static sites for better user experience and SEO."
-      - "Intuitive syntax and support for popular frameworks make learning and using Next a breeze."
-      - "Use any front-end library or framework, or build custom components, for any project size."
-      - "Built on cutting-edge technology to keep your projects up-to-date with the latest web standards."
+      - "Innovative Software Solutions: Stay ahead with cutting-edge technology."
+      - "User-Centric Design: Enjoy a seamless, intuitive experience."
+      - "Affordability: Premium features without breaking the bank."
+      - "Supportive Community: Connect with like-minded individuals for growth."
+      - "Tailored for You: Customized solutions for developers and students."
+      - "Simplify Your Work: EternStack makes complex tasks effortless."
+      - "Unparalleled Convenience: Enhance productivity and learning with ease."
     button:
       enable: false
       label: ""
