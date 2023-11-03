@@ -1,5 +1,5 @@
 import React from "react";
-
+import "./product.css";
 const page = () => {
   return (
     <div className="products-main w-screen ">
@@ -66,7 +66,7 @@ CSE Crew is your go-to platform for all your institute's study material, thought
           </div>
         </div>
         <div className="mockanapipart2 flex-row items-center">
-            <div className="part2img h-80 w-80">
+            <div className="part2img h-30 w-80">
             <img src="https://i.ibb.co/RcbbZfd/mockanapi.png" alt="mockanapi" />
         </div>
         <div className="mockanapivisitus h-10 w-full  flex items-center justify-center bg-slate-400 hover:bg-slate-600 text-white rounded-xl">
@@ -200,7 +200,7 @@ CSE Crew is your go-to platform for all your institute's study material, thought
           </div>
         </div>
         <div className="csecrewpart2 flex-row items-center">
-            <div className="part2img h-80 w-80">
+            <div className="part2img h-60 w-80">
             <img src="https://i.ibb.co/gVj0P3G/csecrew.png" alt="csecrew" />
         </div>
         <div className="csecrewvisitus h-10 w-full mt-8 flex items-center justify-center bg-slate-400 hover:bg-slate-600 text-white rounded-xl">
@@ -213,3 +213,5 @@ CSE Crew is your go-to platform for all your institute's study material, thought
 };
 
 export default page;
+
+
