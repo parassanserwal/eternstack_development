@@ -149,7 +149,7 @@ const Header = () => {
               <IoSearch />
             </Link>
           )}
-          {/* <ThemeSwitcher className="mr-5" /> */}
+          <ThemeSwitcher className="mr-5" />
           {navigation_button.enable && (
             <Link
             
