@@ -2,7 +2,7 @@
 # Banner
 banner:
   title: "Empower Your Development Journey with EternStack"
-  additional_title: " 'Unleash the Power of SaaS Platforms' "
+  additional_title: " "Unleash the Power of SaaS Platforms" "
   content: "Elevate Your Productivity and Learning with EternStack's Innovative Solutions for Developers and Students "
   image: "/images/homepage.png"
   button:
