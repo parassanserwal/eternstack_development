@@ -6,7 +6,7 @@ import SeoMeta from "@/partials/SeoMeta";
 import Testimonials from "@/partials/Testimonials";
 import { Button, Feature } from "@/types";
 import { FaCheck } from "react-icons/fa/index.js";
-
+import "./home.css";
 
 const Home = () => {
   const homepage = getListPage("homepage/_index.md");
@@ -25,66 +25,39 @@ const Home = () => {
     <>
       <SeoMeta />
       <section className="section pt-14">
-        <div className="container flex  w-screen justify-between">
-          <div className="para1 w-2/4">
-          <h1
-                className="mb-4 "
-                dangerouslySetInnerHTML={markdownify(banner.title)}
-              />
-              <h3
-                className="mb-4 "
-                dangerouslySetInnerHTML={markdownify(banner.additional_title)}
-              />
-              <p
-                className="mt-10 "
-                dangerouslySetInnerHTML={markdownify(banner.content ?? "")}
-              />
-              <div className="productbutton h-10 w-48 bg-slate-300 flex items-center justify-center rounded-l mt-10 hover:bg-slate-200"><a href="/products">Checkout Products</a></div>
-          </div>
-          <div className="para2">
-          <div className="">
-                <ImageFallback
-                  src={banner.image}
-                  className="mx-auto"
-                  width="400"
-                  height="500"
-                  alt="banner image"
-                  priority
-                />
-              </div>
-          </div>
-          {/* <div className="row justify-center">
-            <div className="mb-16 text-center lg:col-10">
-              <h1
-                className="mb-4"
-                dangerouslySetInnerHTML={markdownify(banner.title)}
-              />
-              <p
-                className="mb-8"
-                dangerouslySetInnerHTML={markdownify(banner.content ?? "")}
-              />
-              
-              {banner.button!.enable && (
-                <a className="btn btn-primary" href={banner.button!.link}>
-                  {banner.button!.label}
-                </a>
-              )}
-            </div>
-            {banner.image && (
-              <div className="col-12">
-                <ImageFallback
-                  src={banner.image}
-                  className="mx-auto"
-                  width="800"
-                  height="420"
-                  alt="banner image"
-                  priority
-                />
-              </div>
-            )}
-          </div> */}
-        </div>
-      </section>
+  <div className="container flex flex-col sm:flex-row w-screen justify-between">
+    <div className="para1 w-full sm:w-2/4">
+      <h1
+        className="mb-4"
+        dangerouslySetInnerHTML={markdownify(banner.title)}
+      />
+      <h3
+        className="mb-4"
+        // dangerouslySetInnerHTML={markdownify(banner.additional_title)}
+      >'Unleash the Power of SaaS Platforms'</h3>
+      <p
+        className="mt-10"
+        dangerouslySetInnerHTML={markdownify(banner.content ?? "")}
+      />
+      <div className="productbutton h-10 w-48 bg-slate-300 flex items-center justify-center rounded-l mt-10 hover:bg-slate-200">
+        <a href="/products">Checkout Products</a>
+      </div>
+    </div>
+    <div className="para2">
+      <div>
+        <ImageFallback
+          src={banner.image}
+          className="mx-auto"
+          width="400"
+          height="500"
+          alt="banner image"
+          priority
+        />
+      </div>
+    </div>
+  </div>
+</section>
+
 
       {features.map((feature, index: number) => (
         <section
