@@ -29,8 +29,8 @@
 
   "navigation_button": {
     "enable": true,
-    "label": "Linked In",
-    "link": ""
+    "label": "Our Journey",
+    "link": "https://eternstack-development-git-master-paras-sanserwals-projects.vercel.app/blog/post-1"
   },
 
   "disqus": {

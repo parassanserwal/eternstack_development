@@ -5,8 +5,8 @@
       "url": "/"
     },
     {
-      "name": "About",
-      "url": "/about"
+      "name": "Aim",
+      "url": "/aim"
     },
     {
       "name": "Products",
@@ -27,8 +27,8 @@
         },
         
         {
-          "name": "Categories",
-          "url": "/categories"
+          "name": "About",
+          "url": "/about"
         },
         {
           "name": "Search",
@@ -44,8 +44,8 @@
       "url": "/products"
     },
     {
-      "name": "Privacy Policy",
-      "url": "/privacy-policy"
+      "name": "Contact Us",
+      "url": "/constact"
     }
   ]
 }

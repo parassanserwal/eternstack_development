@@ -34,3 +34,9 @@
       margin-top: 20px; /* Adjust the spacing as needed */
     }
   }
+  .gray{
+    filter:grayscale(1);
+  }
+  .gray:hover{
+    filter:grayscale(0);
+  }
