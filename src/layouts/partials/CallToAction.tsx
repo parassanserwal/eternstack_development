@@ -1,7 +1,7 @@
 import ImageFallback from "@/helpers/ImageFallback";
 import { markdownify } from "@/lib/utils/textConverter";
 import { Call_to_action } from "@/types";
-
+import Link from "next/link";
 interface PageData {
   notFound?: boolean;
   content?: string;
@@ -39,12 +39,11 @@ const CallToAction = ({ data }: { data: PageData }) => {
                     className="mb-6"
                   />
                   {data.frontmatter.button.enable && (
-                    <a
-                      className="btn btn-primary"
-                      href={data.frontmatter.button.link}
-                    >
-                      {data.frontmatter.button.label}
-                    </a>
+                    <Link
+                    className="btn n btn-outline-primary btn-sm mt-[60px] lg:inline-block "
+                    href="/blog/post-2">
+                    Read More
+                    </Link>
                   )}
                 </div>
               </div>

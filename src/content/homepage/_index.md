@@ -2,10 +2,10 @@
 # Banner
 banner:
   title: "Empower Your Development Journey with EternStack"
-  additional_title: " "Unleash the Power of SaaS Platforms" "
+  subtitle: '"Unleash the Power of SaaS Platforms"'
   content: "Elevate Your Productivity and Learning with EternStack's Innovative Solutions for Developers and Students "
   image: "/images/homepage.png"
-  button:
+  button: 
     enable: true
     label: "Get Started For Free"
     link: "https://github.com/zeon-studio/nextplate"
@@ -14,7 +14,7 @@ banner:
 features:
   - title: "EternStack Highlights:"
     image: "/images/service-1.png"
-    content: "Nextplate is a comprehensive starter template that includes everything you need to get started with your Next project. What's Included in Nextplate"
+    content: "EternStack offers advanced software solutions designed for developers and students, featuring intuitive interfaces, budget-friendly pricing, ongoing improvements, and a vibrant community for collaboration and support. "
     bulletpoints:
       - "Cutting-edge SaaS platforms for developers and students"
       - "User-friendly and intuitive interfaces for ease of use"
@@ -41,7 +41,7 @@ features:
 
   - title: "Why Make Us Your Preferred Choice?"
     image: "/images/service-3.png"
-    content: "With Next, you can build modern and content-focused websites without sacrificing performance or ease of use."
+    content: ""
     bulletpoints:
       - "Innovative Software Solutions: Stay ahead with cutting-edge technology."
       - "User-Centric Design: Enjoy a seamless, intuitive experience."
@@ -54,4 +54,5 @@ features:
       enable: false
       label: ""
       link: ""
+
 ---

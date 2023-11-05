@@ -1,10 +1,10 @@
 ---
 enable: true
-title: "Ready to build your next project with Next?"
-image: "/images/call-to-action.png"
-description: "Experience the future of web development with Nextplate and Next. Build lightning-fast static sites with ease and flexibility."
+title: "Introducing Mockanapi: Our Hero in API Mocking!"
+image: "/images/mockanapi.png"
+description: "MockAnAPI, a proud creation of Eternstack, serves as your one-stop destination for hassle-free API mocking and robust development. "
 button:
   enable: true
   label: "Get Started Now"
-  link: "https://github.com/zeon-studio/nextplate"
+  link: "https://mockanapi.com"
 ---
