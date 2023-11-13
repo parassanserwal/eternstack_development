@@ -15,8 +15,8 @@
   "settings": {
     "search": true,
     "sticky_header": true,
-    "theme_switcher": true,
-    "default_theme": "system",
+    "theme_switcher": false,
+    "default_theme": "light",
     "pagination": 2,
     "summary_length": 200,
     "blog_folder": "blog"
@@ -24,7 +24,7 @@
 
   "params": {
     "contact_form_action": "#",
-    "copyright": "Designed And Developed by Eternstack Pvt. Ltd."
+    "copyright": "All rights reserved |  Eternstack Pvt. Ltd. "
   },
 
   "navigation_button": {
