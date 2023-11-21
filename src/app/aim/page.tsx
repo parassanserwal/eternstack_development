@@ -52,7 +52,7 @@ import React from "react";
 const AimPage = () => {
   return (
     <div>
-      <header className="bg-blue-300 text-white text-center py-4">
+      <header className="bg-indigo-100 text-black text-center py-4">
         <h1 className="text-3xl">Welcome to EternStack</h1>
         <p>Your Gateway to Simplified Development</p>
       </header>
@@ -89,14 +89,14 @@ const AimPage = () => {
           <div className="set1">
           <div className="saas-card flex-1 bg-gray-100 p-4 border rounded-lg shadow-md">
             
-            <img src="https://i.ibb.co/RcbbZfd/mockanapi.png" alt="mockanapi"className="w-32 mx-auto mb-4" />
+            <img src="https://i.ibb.co/RcbbZfd/mockanapi.png" alt="mockanapi"className="w-36 mx-auto mb-4" />
             <h3 className="text-lg">Mockanapi</h3>
             <p>Streamline API mocking with MockAnAPI</p>
             <a href="/products" className="text-blue-500 hover:underline">Learn More</a>
           </div>
           <div className="saas-card flex-1 mt-8 bg-gray-100 p-4 border rounded-lg shadow-md">
             
-          <img src="https://i.ibb.co/gVj0P3G/csecrew.png" alt="csecrew" className="w-24 mx-auto mb-2"/>
+          <img src="https://i.ibb.co/0F7nmbc/csecrewlogo-z-L7nzrpf-C.png" alt="csecrew" className="w-40 mx-auto mb-4"/>
             <h3 className="text-lg">Csecrew</h3>
             <p>Your college's central information hub</p>
             <a href="/products" className="text-blue-500 hover:underline">Learn More</a>
